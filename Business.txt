@@ -1,0 +1,16 @@
+In an online ticket booking system, there are several key business entities involved. Here are some common entities:
+1.User: 
+       Represents an individual who interacts with the system. Users can register, log in, browse events, book tickets,        make payments, and manage their profiles.
+2.Event: 
+        Represents a specific happening or occurrence for which tickets can be booked. Events can include movies,         concerts, sports matches, theater performances, conferences, etc. Each event has attributes such as a name,    	date, time, venue, category, and availability status.
+3.Ticket:
+	 Represents a specific seat or entry pass for an event. Tickets are associated with events and have attributes 	such as a unique identifier, seat number, price, ticket type (e.g., VIP, General), and booking status.
+4.Booking: 
+	Represents a reservation or purchase made by a user for one or more tickets. A booking is associated with a user 	and contains details such as the booked tickets, total price, booking date, and status	.
+5.Payment: 
+	Represents the financial transaction made by a user to purchase tickets. It includes payment details such as the 	payment method (credit card, debit card, net banking), amount, transaction ID, and payment status.
+6.Venue:
+	 Represents the physical location where events are held. A venue can have attributes such as a name, address, 	seating layout, capacity, and facilities.
+7.Admin: 
+	Represents an administrator or staff member who has privileged access to manage the system. Admins can add and 	edit events, manage bookings, handle refunds, generate reports, and perform other administrative tasks.
+	These entities form the core structure of an online ticket booking system, and their relationships and 	interactions enable the functioning of the system.

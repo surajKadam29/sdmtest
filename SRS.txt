@@ -1,0 +1,71 @@
+
+
+1. Scope:
+		The Online Ticket Booking System will provide the following functionalities:
+ 		User registration and authentication.
+ 		Event browsing and searching.
+ 		Seat selection and booking.
+ 		Online payment integration.
+ 		Ticket cancellation and refund management.
+ 		User profile management.
+	        Admin panel for event and ticket management.
+
+
+ 2.Functional requirement:
+
+
+1. Registration:
+
+ 		If a customer wants to book the ticket then he/she must be registered, an unregistered user can’t book 				the ticket. 
+
+2. Login :
+		Customer logins to the system by entering valid user id and password for booking the ticket.
+
+3. Search Movie:
+		The system shall have a search function. Customer or visitor can search movies based on movie name, 				date, time and venue
+
+4. Seat Viewing: 
+
+		The customer shall be shown a 2D image of the seats from which the desired seats are selected.
+
+5.Ticket canceling:
+
+		The customer shall be given an option to cancel ticket one hour before the movie with some fine.
+
+6. Payment:
+
+   		For the customer there are many types of secure billing will be prepaid by debit or credit card. The 				security will provide by the third party like Pay-Pal etc.   
+
+7. Logout :
+		After the payment or browse the movie, the customer will log out.
+
+8. Generate ticket:
+		After booking, the system can generate the portable document file (.pdf) and then sent one copy to the 				customer’s Email-address and another one as an SMS to customer’s phone.
+
+9. Add movies : 
+
+		The system shall have a feature for admin to add movies and their details.
+
+10. Remove movies: 
+
+		The system shall have a feature for admin to remove movies.
+
+
+3.Non-Functional Requirements
+3.1 Usability:
+ 		The system should have an intuitive and user-friendly interface.
+ 		The response time for search, seat selection, and booking should be fast.
+3.2 Security:
+		 User passwords should be stored securely using encryption techniques.
+ 		The payment gateway integration should be secure and comply with industry standards.
+3.3 Performance:
+ 		The system should be able to handle a large number of concurrent users without significant performance 		degradation.
+		The response time for seat availability and booking confirmation should be minimal.
+3.4 Reliability:
+ 		The system should be highly reliable and available 24/7.
+ 		It should have appropriate backup and recovery mechanisms in case of system failures.
+3.5 Scalability :
+ 		The system architecture should support scalability to handle increasing user demand.
+ 		The database should be designed to accommodate a growing number of events, bookings, and users.
+
+
